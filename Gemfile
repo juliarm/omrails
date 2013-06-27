@@ -6,7 +6,7 @@ gem 'devise'
 gem 'simple_form'
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 gem 'aws-sdk'
-gem 'newrelic_rpm'
+
 
 group :production do
 	gem 'pg'
@@ -22,3 +22,5 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   gem 'bootstrap-sass', '~> 2.2.2.0'
 end
+
+gem 'newrelic_rpm'
